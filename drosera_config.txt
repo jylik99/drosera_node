@@ -1,0 +1,16 @@
+# Drosera Installation Configuration
+# Заполните следующие параметры для автоматической настройки
+
+# Данные GitHub аккаунта
+GITHUB_EMAIL=example@gmail.com
+GITHUB_USERNAME=username
+
+# Данные Ethereum кошелька
+EVM_PRIVATE_KEY=0x71d6fc273c76p0eadc208e84965054373219e8b42b1416b3bffe1526a779d8e0
+EVM_PUBLIC_ADDRESS=0x2687d9c2b5d98e4DCa1FA41361010A25341E0897
+
+# RPC URL для сети Hole sky
+HOLESKY_RPC=https://eth-holesky.g.alchemy.com/v2/MeFTTzKj37UPbayjLmXbKYrvWBgoTr7e
+
+# IP-адрес сервера (для настройки оператора)
+SERVER_IP=95.228.337.88
