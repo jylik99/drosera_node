@@ -701,11 +701,11 @@ install_operator_cli() {
     fi
     
     print_message "Загрузка архива с CLI оператора..."
-    curl -LO https://github.com/drosera-network/releases/releases/download/v1.16.2/drosera-operator-v1.16.2-x86_64-unknown-linux-gnu.tar.gz
+    curl -LO https://github.com/drosera-network/releases/releases/download/v1.17.2/drosera-operator-v1.17.2-x86_64-unknown-linux-gnu.tar.gz
     check_result "Ошибка при загрузке архива с CLI оператора" || return 1
     
     print_message "Распаковка архива..."
-    tar -xvf drosera-operator-v1.16.2-x86_64-unknown-linux-gnu.tar.gz
+    tar -xvf drosera-operator-v1.17.2-x86_64-unknown-linux-gnu.tar.gz
     check_result "Ошибка при распаковке архива" || return 1
     
     print_message "Проверка работоспособности CLI оператора..."
